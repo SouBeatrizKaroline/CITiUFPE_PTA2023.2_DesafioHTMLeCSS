@@ -1,1 +1,3 @@
-# CITiUFPE_PTA2023.2_DesafioHTMLeCSS
+# Desafio do PTA do CITi UFPE
+
+## HTML e CSS

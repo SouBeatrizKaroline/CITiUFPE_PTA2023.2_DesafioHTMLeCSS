@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+    color: black;
+}
+
+header {
+    padding: 24px 184px;
+    display: flex;
+    justify-content: space-between;
+    position: flex;
+    align-items: baseline;
+}
+
+#logoheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#menuheader {
+    margin: 0 156px 0 0;
+}
+
+#menuheader a {
+    padding: 24px;
+}
+
+main {
+    margin: auto;
+    padding: auto;
+}
+
+#celebratemain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 184px;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+#celebrate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    max-width: 372px;
+    max-height: 288px;
+}
+
+main button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    border-radius: 64px;
+    background: #DC3845;
+    border-color: #ffff;
+    color: #FFFFFF;
+}
+
+#maincards {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0 320px;
+}
+
+.card {
+    width: 200px;
+    height: 247px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 24px 0px rgba(48, 29, 30, 0.10);
+    background: rgba(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    align-self: center;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.description h2 {
+    color: #5D5656;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.price p {
+    color: #282525;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
